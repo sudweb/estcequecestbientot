@@ -5,5 +5,5 @@
 
     Frank Taillandier -- @DirtyF
   	Thomas -- @oncletom
-  	Loic -- @bballizlife
+  	Loïc -- @loicmathaud
   	Nat -- @nrosenberg
