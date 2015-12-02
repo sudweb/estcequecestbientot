@@ -1,0 +1,9 @@
+# humanstxt.org
+# Coucou, nous sommes humains !
+
+# THYM
+
+    Frank Taillandier -- @DirtyF
+  	Thomas -- @oncletom
+  	Loïc -- @loicmathaud
+  	Nat -- @nrosenberg
