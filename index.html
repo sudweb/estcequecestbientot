@@ -1,26 +1,13 @@
-<!doctype html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Est-ce que c'est bientôt Sud Web ?</title>
-	<meta name="description" content="Rendez-vous à Bordeaux pour prendre de la bouteille">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://fonts.googleapis.com/css?family=Squada+One:100" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/styles.css?v=6.2">
-</head>
-<body>
-	<!--[if lt IE 8]>
-	    <p class="browserupgrade">Vous utilisez un navigateur <strong>obsolète</strong>. Merci de <a href="http://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre expérience utilisateur.</p>
-	<![endif]-->
-	<main>
-		<header>
-			<img src="images/logo.png" alt="Sud Web">
-		</header>
-		<blockquote>
-			<h1>Ze programme iz loading…</h1>
-			<cite><a href="http://sudweb.fr">Please wait</a></cite>
-	</blockquote>
-	</main>
-</body>
-</html>
+---
+layout: default
+title: Est-ce que c'est bientôt Sud Web ?
+description: Rendez-vous à Bordeaux pour prendre de la bouteille
+image: /assets/images/logo.png
+author: SudWeb
+---
+
+<blockquote>
+	{% assign quote = site.data.quotes | first %}
+	<h1>{{ quote.text }}</h1>
+	<div><a class="button-type3" href="{{ quote.url }}">{{ quote.action }}</a></div>
+</blockquote>

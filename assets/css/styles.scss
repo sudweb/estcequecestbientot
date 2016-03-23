@@ -1,0 +1,36 @@
+---
+---
+@import "variables";
+@import "buttons";
+
+body {
+    margin: 20vh auto;
+    padding: 0;
+    font: normal 1.4em/1.1 'Squada One', Georgia, Times, serif;
+    background: #F8A912;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-shadow: 0px 4px 0px #F0801B;
+}
+
+main {
+    margin: 0 5vw;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.browserupgrade {
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+    background: $darkred;
+    a {
+      color: $alternate-color;
+    }
+}
