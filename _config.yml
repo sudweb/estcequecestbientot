@@ -1,0 +1,21 @@
+repository: sudweb/estcequecestbientot
+url: http://estcequecestbientot.sudweb.fr
+title: Est-ce que c'est bientôt Sud Web ?
+description: Rendez-vous à Bordeaux pour prendre de la bouteille
+logo: /assets/images/logo.png
+twitter:
+  username: sudweb
+
+sass:
+    style: compressed
+
+exclude:
+  - .editorconfig
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+gems:
+  - jekyll-sitemap
+  - jekyll-github-metadata
