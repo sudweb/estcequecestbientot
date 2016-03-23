@@ -12,9 +12,12 @@ sass:
 exclude:
   - .editorconfig
   - .gitignore
+  - .travis.yml
   - Gemfile
   - Gemfile.lock
   - README.md
+  - script
+  - vendor
 
 gems:
   - jekyll-sitemap

@@ -1,0 +1,13 @@
+language: ruby
+cache: bundler
+
+rvm:
+- 2.1
+
+sudo: false
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+install: gem install github-pages html-proofer
+script: ./script/cibuild
