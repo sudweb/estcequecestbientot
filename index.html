@@ -1,12 +1,13 @@
 ---
 layout: default
-title: {{ site.title }}
-description: {{ site.description }}
-author: {{ site.twitter.username }}
+title: Est-ce que c'est bientôt Sud Web ?
+description: Rendez-vous à Bordeaux pour prendre de la bouteille
+image: /assets/images/logo.png
+author: SudWeb
 ---
 
 <blockquote>
 	{% assign quote = site.data.quotes | first %}
 	<h1>{{ quote.text }}</h1>
-	<cite><a class="button-type3" href="{{ quote.url }}">{{ quote.action }}</a></cite>
+	<div><a class="button-type3" href="{{ quote.url }}">{{ quote.action }}</a></div>
 </blockquote>

@@ -12,33 +12,25 @@ body {
 }
 
 h1 {
-    margin-bottom: 0.25em;
+    margin-bottom: 1em;
     text-shadow: 0px 4px 0px #F0801B;
-}
-
-cite {
-    display: inline-block;
-    margin: 1em;
-    font-size: 1.4em;
 }
 
 main {
     margin: 0 5vw;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
 }
 
-header,
-blockquote {
-    text-align: center;
-}
-
 .browserupgrade {
-    margin: 0.2em 0;
-    padding: 0.2em 0;
-    background: #ccc;
-    color: #000;
-
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 0.5em 0;
+    background: $darkred;
+    a {
+      color: $alternate-color;
+    }
 }

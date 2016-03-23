@@ -18,4 +18,5 @@ exclude:
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-github-metadata
