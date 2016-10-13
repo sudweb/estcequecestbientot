@@ -6,6 +6,9 @@ logo: /assets/images/logo.png
 twitter:
   username: sudweb
 
+google:
+  tracking_id: UA-22076213-3
+
 sass:
     style: compressed
 
