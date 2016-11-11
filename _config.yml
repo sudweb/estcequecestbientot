@@ -12,6 +12,12 @@ google:
 sass:
     style: compressed
 
+default:
+    cta_text: En savoir plus
+    cta_title: "Site de SudWeb"
+    cta_url: "https://sudweb.fr/"
+    text: "Hey, on a un truc à vous proposer&nbsp;!"
+
 exclude:
   - .editorconfig
   - .gitignore
