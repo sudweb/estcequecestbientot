@@ -31,7 +31,8 @@ Papa.parse("assets/data.csv", {
         });
         if(activeMessages.length){
             var highestWeight = parseInt(activeMessages[0].weight, 10);
-            var availableMessages = activeMessages.filter(function(item) {
+            var availableMessages = activeMessages
+            .filter(function(item) {
                 // keep only the messages of this weight
                 return parseInt(item.weight, 10) == highestWeight;
             });
@@ -39,6 +40,8 @@ Papa.parse("assets/data.csv", {
             // take on of this message
             message = availableMessages[Math.floor(Math.random() * availableMessages.length)];
         }
+
+        message.cta_title = message.cta_title.replace(/"/g, '&quot;').replace(/'/g, '&apos;');
         pagefn = doT.template(document.getElementById('tmpl').text);
         document.getElementById('content').innerHTML = pagefn(message);
 	}
