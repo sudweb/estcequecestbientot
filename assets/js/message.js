@@ -1,7 +1,7 @@
 ---
 ---
 // Parse local CSV file
-Papa.parse("/assets/data.csv", {
+Papa.parse("assets/data.csv", {
     header: true,
     download: true,
 	complete: function(results) {

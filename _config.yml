@@ -2,7 +2,7 @@ repository: sudweb/estcequecestbientot
 url: https://estcequecestbientot.sudweb.fr
 title: Est-ce que c'est bientôt Sud Web ?
 description:
-logo: /assets/images/logo.png
+logo: assets/images/logo.png
 twitter:
   username: sudweb
 
