@@ -6,8 +6,15 @@ image: /assets/images/logo.png
 author: SudWeb
 ---
 
-<blockquote>
-	{% assign quote = site.data.quotes | first %}
-	<h1>{{ quote.text }}</h1>
-	<div><a class="button-type3" href="{{ quote.url }}">{{ quote.action }}</a></div>
+<blockquote id="content">
+	<noscript>
+		<h1>{{ site.default.text }}</h1>
+		<div><a class="button-type3" href="{{ site.default.cta_url}}" title="{{ site.default.cta_title}}">{{ site.default.cta_text}}</a></div>
+	</noscript>
 </blockquote>
+{% raw  %}
+<script id="tmpl" type="text/x-dot-template">
+	<h1>{{=it.text}}</h1>
+	<div><a class="button-type3" href="{{=it.cta_url}}" title="{{=it.cta_title}}">{{=it.cta_text}}</a></div>
+</script>
+{% endraw  %}
