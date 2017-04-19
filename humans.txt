@@ -4,7 +4,7 @@
 /* ABOUT */
 
   Twitter:      @sudweb
-  Location:     South of France (Bordeaux, Toulouse, Montpellier, Avignon, Nîmes)
+  Location:     South of France (Bordeaux, Toulouse, Montpellier, Aix, Avignon, Nîmes)
   Design:       Enza (@zizae)
 
 /* SITE */
