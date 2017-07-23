@@ -7,13 +7,13 @@ body {
     margin: 20vh auto;
     padding: 0;
     font: normal 1.4em/1.1 'Squada One', Georgia, Times, serif;
-    background: #F8A912;
-    color: #fff;
+    background: #FFF;
+    color: #E84538;
 }
 
 h1 {
     margin-bottom: 1em;
-    text-shadow: 0px 4px 0px #F0801B;
+    text-shadow: none;
 }
 
 main {
@@ -36,5 +36,5 @@ img {
 }
 
 .call {
-    @extend .button-type3;
+    @extend .button-type2;
 }

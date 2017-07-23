@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
   <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Squada+One">
-  <link rel="stylesheet" href="assets/css/styles.css?v=6.2">
+  <link rel="stylesheet" href="{{ site.style.style }}?v={{ site.version }}">
   {% include analytics.html %}
 </head>
 <body>
@@ -15,10 +15,11 @@
 	<![endif]-->
   <main>
     <header>
-      <img src="{{ site.logo }}" alt="{{ site.title }}">
+      <img id="logo" src="{{ site.style.logo }}" alt="{{ site.title }}">
     </header>
     {{ content }}
   </main>
+  <script src="assets/js/alt-style.js"></script>
   <script src="assets/vendor/papaparse/papaparse.min.js"></script>
   <script src="assets/vendor/dot/doT.min.js"></script>
   <script src="assets/js/message.js"></script>
