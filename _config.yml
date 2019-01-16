@@ -6,9 +6,6 @@ description:
 style:
   logo: assets/images/logo1.png
   style: assets/css/styles.css
-alt_style:
-  logo: assets/images/logo2.png
-  style: assets/css/styles_alt.css
 twitter:
   username: sudweb
 

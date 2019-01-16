@@ -1,28 +1,54 @@
 ---
 ---
 @import "variables";
-@import "buttons";
 
 body {
-    margin: 20vh auto;
+    margin: auto;
     padding: 0;
-    font: normal 1.4em/1.1 'Squada One', Georgia, Times, serif;
-    background: #F8A912;
-    color: #fff;
+    font: normal 100 .625em "Roboto",arial,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
     margin-bottom: 1em;
-    text-shadow: 0px 4px 0px #F0801B;
+    color: #d15757;
 }
 
 main {
-    margin: 0 5vw;
+    margin: 1vw;
     text-align: center;
 }
 
 img {
     max-width: 100%;
+}
+
+.button {
+	position: relative;
+  display: inline-block;
+  margin: .125em .5em;
+  padding: 0.2rem 0.8rem;
+  overflow: hidden;
+  color: #000;
+  border: none;
+  border-radius: .125em;
+  box-shadow: 0 0 0.5em 0 rgba(234,179,179,0.5);
+  background-color: #eab3b3;
+  font: normal 400 1.5em/1.6 "Roboto",arial,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+	&:hover,
+	&:focus {
+    cursor: pointer;
+		animation: zoom .2s forwards;
+    background-color: #d15757;
+    color: #fff;
+	}
 }
 
 .browserupgrade {
@@ -35,6 +61,3 @@ img {
     }
 }
 
-.call {
-    @extend .button-type3;
-}

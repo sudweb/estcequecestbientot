@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
   <link rel="dns-prefetch" href="//fonts.googleapis.com" data-proofer-ignore>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Squada+One">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="{{ site.style.style }}?v={{ site.version }}">
   {% include analytics.html %}
 </head>
@@ -19,9 +20,8 @@
     </header>
     {{ content }}
   </main>
-  <script src="assets/js/alt-style.js"></script>
   <script src="assets/vendor/papaparse/papaparse.min.js"></script>
-  <script src="assets/vendor/dot/doT.min.js"></script>
-  <script src="assets/js/message.js"></script>
+  <script src="assets/vendor/dot/doT.min.js" defer ></script>
+  <script src="assets/js/message.js" defer></script>
 </body>
 </html>
